@@ -11,6 +11,8 @@
 
 # Introduction
 
+Repository cloned from https://github.com/maximegris/angular-electron 
+
 Bootstrap and package your project with Angular 8 and Electron (Typescript + SASS + Hot Reload) for creating Desktop applications.
 
 Currently runs with:
@@ -32,7 +34,7 @@ With this sample, you can :
 Clone this repository locally :
 
 ``` bash
-git clone https://github.com/maximegris/angular-electron.git
+git clone https://github.com/pdrappo/electron-angular-photonkit.git
 ```
 
 Install dependencies with npm :

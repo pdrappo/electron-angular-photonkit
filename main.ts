@@ -20,7 +20,11 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    //transparent: true,
+    frame: false, // Quitar borde y botones del sistema operativo
   });
+
+  win.setMenu(null);
 
   if (serve) {
     require('electron-reload')(__dirname, {
